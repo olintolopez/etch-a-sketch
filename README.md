@@ -9,3 +9,4 @@ Regarding the functionality, it successfully fulfills in its entirety as I expec
 
 The background used is obtained from the url: https://d3q33rbmdkxzj.cloudfront.net/1588404277337_Diuudf.png and the favicon it is used that is obtained from the url: https://www.iconspng.com/download/49606
 
+The link to see the demo is: https://olintolopez.github.io/etch-a-sketch/ 
