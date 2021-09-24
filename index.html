@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <title>Etch a sketch game</title>
+    <link rel="shortcut icon" href="./assets/img/game-icon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="etchsketch">
+        <h1>Etch a sketch Game</h1>
+        <div class="buttons">
+            <button class="btn btn-options" id="clear" type="button"><i class="fas fa-snowplow"></i>Clear</button>
+            <button class="btn btn-options" id="select_color" type="button">
+                <i class="fas fa-palette"></i>
+                Color:<input type="color" class="selColor" value="#ffffff" id="input-color">
+            </button>
+            <button class="btn btn-options" id="btnRainbow" type="button">
+                <i class="fas fa-rainbow"></i>Rainbow
+            </button>
+            <button class="btn btn-options" id="btnGray" type="button">
+                <i class="fas fa-star"></i>Gray
+            </button>
+            <button class="btn btn-options" id="btnBlack" type="button">
+                <i class="fab fa-blackberry"></i>Black
+            </button>
+        </div>
+        <div class="size-container">
+            <p id="idRange">16x16</p>
+            <input type="range" min="4" max="64" value="16" id="sizeRange" class="slider">
+        </div>
+        <div class="container"></div>
+    </div>
+    <div class="grid-options">        
+        
+    </div>
+    <p></p>
+    <div class="footer">
+        This project is part of <a
+            href="https://www.theodinproject.com/courses/web-development-101/lessons/etch-a-sketch-project">The Odin
+            Project Curriculum</a>
+        . 
+        <a id="author" target="_blank" href="https://github.com/olintolopez">
+            <i class="fab fa-github"></i> Olinto Lopez
+        </a>
+        
+    </div>
+
+    <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
